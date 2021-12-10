@@ -1,6 +1,6 @@
 import sqlite3
 
-con = sqlite3.connect('stocks.db')
+con = sqlite3.connect('stocks2.db')
 cur = con.cursor()
 # Create table
 # cur.execute('''CREATE TABLE stocks
